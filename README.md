@@ -1,3 +1,29 @@
+# UAS - Inventory App
+
+Repository ini berisi project aplikasi Inventory Web yang dibuat untuk memenuhi tugas Ujian Akhir Semester (UAS).
+
+## 🔗 Tautan Penting
+
+*   **Link Demo Web (Domain):** [https://www.nadaismaya21.my.id](https://www.nadaismaya21.my.id)
+*   **Link Video Demo (YouTube):** [https://youtu.be/ntwDNRVbqH0](https://youtu.be/ntwDNRVbqH0)
+
+---
+
+## 🔐 Akun Demonstrasi (Admin)
+
+Gunakan akun berikut ini untuk menguji dan masuk ke dalam sistem sebagai Administrator:
+
+*   **Email:** `admin@gmail.com`
+*   **Password:** *password*
+
+---
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
