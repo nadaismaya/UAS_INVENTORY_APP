@@ -14,7 +14,7 @@ Repository ini berisi project aplikasi Inventory Web yang dibuat untuk memenuhi 
 Gunakan akun berikut ini untuk menguji dan masuk ke dalam sistem sebagai Administrator:
 
 *   **Email:** `admin@gmail.com`
-*   **Password:** *password*
+*   **Password:** `password`
 
 ---
 
