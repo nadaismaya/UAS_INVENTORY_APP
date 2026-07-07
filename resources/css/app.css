@@ -1,0 +1,453 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+    --primary:#42A5F5;
+    --primary-light:#64B5F6;
+}
+
+/* ===================================================
+   LIGHT MODE
+=================================================== */
+
+body{
+    background:#F7FAFD;
+    color:#212529;
+    font-family:'Poppins',sans-serif;
+    transition:.3s;
+}
+
+.card{
+    background:#fff;
+    color:#212529;
+    border:none;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(66,165,245,.12);
+}
+
+.card-header{
+    background:linear-gradient(90deg,#42A5F5,#64B5F6);
+    color:#fff;
+    border:none;
+}
+
+.btn-primary{
+    background:linear-gradient(90deg,#42A5F5,#64B5F6);
+    border:none;
+}
+
+.btn-primary:hover{
+    background:linear-gradient(90deg,#64B5F6,#90CAF9);
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#42A5F5;
+    box-shadow:0 0 0 .2rem rgba(66,165,245,.2);
+}
+
+.table{
+    color:#212529;
+}
+
+.table thead{
+    background:linear-gradient(90deg,#42A5F5,#64B5F6);
+}
+
+.table thead th{
+    background:transparent;
+    color:#fff;
+}
+
+.table tbody td{
+    background:#fff;
+    color:#212529;
+}
+
+.page-link{
+    color:#42A5F5;
+}
+
+.page-item.active .page-link{
+    background:#42A5F5;
+    border-color:#42A5F5;
+}
+
+.text-muted{
+    color:#6c757d !important;
+}
+
+/* ===================================================
+   SIDEBAR
+=================================================== */
+
+.sidebar{
+    width:100%;
+    min-height:100vh;
+
+    background:linear-gradient(180deg,#4F8EF7 0%,#6CA9FF 55%,#8CC2FF 100%);
+    border-right:1px solid rgba(255,255,255,.15);
+}
+
+.sidebar .border-bottom{
+    border-color:rgba(255,255,255,.18)!important;
+}
+
+.sidebar h5{
+    color:#fff;
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.sidebar .list-group{
+    padding:18px 12px;
+    flex:1;
+}
+
+.sidebar .list-group-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    margin-bottom:10px;
+    padding:16px 20px;
+
+    border:none;
+    border-radius:15px;
+
+    background:rgba(255,255,255,.28);
+
+    color:#fff;
+
+    font-size:18px;
+    font-weight:700;
+
+    transition:.25s;
+}
+
+.sidebar .list-group-item i{
+    font-size:23px;
+    width:28px;
+    text-align:center;
+    color:#fff;
+}
+
+.sidebar .list-group-item:hover{
+    background:rgba(255,255,255,.40);
+    color:#fff;
+    transform:translateX(6px);
+}
+
+.sidebar .list-group-item.active{
+    background:#2563EB !important;
+    color:#fff !important;
+    box-shadow:0 8px 20px rgba(37,99,235,.35);
+}
+
+.sidebar .list-group-item.active i{
+    color:#fff;
+}
+
+.sidebar .mt-auto{
+    margin-top:auto;
+    padding-bottom:80px;
+}
+
+.sidebar #themeToggle{
+    display:block;
+    width:calc(100% - 24px);
+
+    margin:0 12px 16px 12px;
+
+    padding:12px;
+
+    border-radius:14px;
+
+    font-size:16px;
+    font-weight:700;
+
+    box-sizing:border-box;
+}
+
+.sidebar #themeToggle i{
+    margin-right:8px;
+}
+
+/* ===================================================
+   DARK MODE SELURUH HALAMAN
+=================================================== */
+
+body.dark-mode{
+
+    background:#1f1f1f;
+    color:#fff;
+
+}
+
+body.dark-mode main{
+
+    background:#1f1f1f;
+
+}
+
+body.dark-mode .card{
+
+    background:#2d2d2d;
+    color:#fff;
+    box-shadow:none;
+
+}
+
+body.dark-mode .card-body{
+
+    background:#2d2d2d;
+
+}
+
+body.dark-mode .card-header{
+
+    background:#343a40;
+    color:#fff;
+
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode label,
+body.dark-mode small{
+
+    color:#fff;
+
+}
+
+body.dark-mode .text-muted{
+
+    color:#c9c9c9 !important;
+
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select{
+
+    background:#3b3b3b;
+    color:#fff;
+    border:1px solid #555;
+
+}
+
+body.dark-mode .form-control::placeholder{
+
+    color:#bbb;
+
+}
+
+body.dark-mode .table{
+
+    color:#fff;
+    border-color:#555;
+
+}
+
+body.dark-mode .table thead{
+
+    background:#3b3b3b;
+
+}
+
+body.dark-mode .table thead th{
+
+    background:#3b3b3b;
+    color:#fff;
+
+}
+
+body.dark-mode .table tbody td{
+
+    background:#2d2d2d;
+    color:#fff;
+    border-color:#555;
+
+}
+
+body.dark-mode .page-link{
+
+    background:#2d2d2d;
+    color:#fff;
+    border-color:#555;
+
+}
+
+body.dark-mode .page-item.active .page-link{
+
+    background:#42A5F5;
+    border-color:#42A5F5;
+
+}
+
+body.dark-mode .dropdown-menu{
+
+    background:#2d2d2d;
+
+}
+
+body.dark-mode .dropdown-item{
+
+    color:#fff;
+
+}
+
+body.dark-mode .dropdown-item:hover{
+
+    background:#404040;
+
+}
+
+body.dark-mode .modal-content{
+
+    background:#2d2d2d;
+    color:#fff;
+
+}
+
+body.dark-mode .alert-success{
+
+    background:#214d37;
+    color:#fff;
+    border:none;
+
+}
+
+body.dark-mode .alert-danger{
+
+    background:#5b2121;
+    color:#fff;
+    border:none;
+
+}
+
+/* ===================================================
+   DARK MODE SIDEBAR
+=================================================== */
+
+body.dark-mode .sidebar{
+
+    background:#172131;
+
+}
+
+body.dark-mode .sidebar .border-bottom{
+
+    border-color:#324153!important;
+
+}
+
+body.dark-mode .sidebar .list-group-item{
+
+    background:#314155;
+    color:#fff;
+
+}
+
+body.dark-mode .sidebar .list-group-item i{
+
+    color:#fff;
+
+}
+
+body.dark-mode .sidebar .list-group-item:hover{
+
+    background:#40536d;
+
+}
+
+body.dark-mode .sidebar .list-group-item.active{
+
+    background:#2563EB !important;
+
+}
+
+body.dark-mode #themeToggle{
+
+    background:#314155;
+    color:#fff;
+    border:1px solid #4b5d75;
+
+}
+
+body.dark-mode #themeToggle:hover{
+
+    background:#40536d;
+
+}
+
+
+
+/* Judul Card Header saat Dark Mode */
+
+body.dark-mode .card-header{
+    color:#fff !important;
+}
+
+body.dark-mode .card-header *{
+    color:#fff !important;
+}
+
+
+/* Card Header tetap terlihat saat Dark Mode */
+
+body.dark-mode .card-header{
+    color:#fff !important;
+}
+
+body.dark-mode .card-header *{
+    color:#fff !important;
+}
+
+/* Judul Dashboard */
+
+body.dark-mode h3{
+    color:#fff !important;
+}
+
+/* Supaya sidebar tidak membuat horizontal scroll */
+
+.sidebar *{
+    max-width:100%;
+}
+
+
+/* ===================================================
+   NAVBAR / HEADER
+=================================================== */
+
+.navbar{
+    min-height:80px;
+    padding:16px 28px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:700;
+}
+
+.navbar .dropdown-toggle{
+    font-size:16px;
+    font-weight:600;
+}
+
+.navbar .btn,
+.navbar .dropdown-toggle{
+    padding:10px 16px;
+}

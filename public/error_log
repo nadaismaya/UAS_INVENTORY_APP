@@ -1,0 +1,14 @@
+[05-Jul-2026 02:52:16 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/erbhrtii/inventory-app/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/erbhrtii/inventory-app/vendor/composer/autoload_real.php(25): require()
+#1 /home/erbhrtii/inventory-app/vendor/autoload.php(22): ComposerAutoloaderInit355073e3d15e457a89dedf105097ec3d::getLoader()
+#2 /home/erbhrtii/public_html/index.php(14): require('/home/erbhrtii/...')
+#3 {main}
+  thrown in /home/erbhrtii/inventory-app/vendor/composer/platform_check.php on line 22
+[05-Jul-2026 02:57:09 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/erbhrtii/inventory-app/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/erbhrtii/inventory-app/vendor/composer/autoload_real.php(25): require()
+#1 /home/erbhrtii/inventory-app/vendor/autoload.php(22): ComposerAutoloaderInit355073e3d15e457a89dedf105097ec3d::getLoader()
+#2 /home/erbhrtii/public_html/index.php(14): require('/home/erbhrtii/...')
+#3 {main}
+  thrown in /home/erbhrtii/inventory-app/vendor/composer/platform_check.php on line 22
